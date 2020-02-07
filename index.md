@@ -32,7 +32,7 @@ Projects
 
 ![](img/vton.png)
 
-* **Landmark-Free Facial Motion Transfer to VTubers**
+* **Landmark-Free Facial Motion Transfer to VTubers**: <a href="pubs/vtuber_summary.pdf" target="blank"> Report</a>
 
 ![](img/vtuber.png)
 
@@ -41,6 +41,6 @@ Projects
 <div class="epigraph">
 <blockquote>
 <p>"I CAN DO ALL THINGS."</p>
-<footer>Stephen Curry, <cite>six-time NBA All-Star, three NBA Championships.</cite></footer>
+<footer>Stephen Curry, <cite>six-time NBA All-Star, three-time NBA Championship.</cite></footer>
 </blockquote>
 </div>
