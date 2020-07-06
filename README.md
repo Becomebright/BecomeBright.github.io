@@ -11,8 +11,8 @@ Required Packages
 
 ```bash
 brew install bibtex2html multimarkdown npm
-npm install -g uglifycss
-npm install -g html-minifier
+sudo npm install -g uglifycss
+sudo npm install -g html-minifier
 ```
 
 Generate index.html and cv.pdf

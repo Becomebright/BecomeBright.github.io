@@ -1,7 +1,7 @@
 # all: index.html cv.pdf
 
 index.html: index.md css/tufte.min.css
-	"C:/software/multimd/MultiMarkdown 6.5.1/bin/multimarkdown" index.md > $@
+	multimarkdown index.md > $@
 	html-minifier $@ --collapse-whitespace --remove-comments -o $@
 
 # 	bibtex.html: bibtex.bib dsgplain.bst

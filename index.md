@@ -12,7 +12,7 @@ Shangzhe Di
 Senior student at [College of Software, Beihang University][TRI].\
 Research intern at [Kwai Technology][KWAI].\
 \
-Research interests: *Human-centered Computer Vision, AR, HCI*.
+Research interests: *human-centered computer vision, 3D vision.*
 
 ![email] <shangzhe.di@gmail.com>\
 ![github] [`github.com/Becomebright`](https://github.com/Becomebright)\
