@@ -33,11 +33,10 @@ Projects
 
     ![](img/virtual_try-on.png)
 
-* **Research on Facial Motion Transfer for 2D Virtual Characters** (Bachelor Thesis)
+* **Research on Facial Motion Transfer for 2D Virtual Characters**: <a href="https://www.bilibili.com/video/BV1q54y1m7jG/" target="blank"> Video</a>
 
-    <video id="video" controls muted loop autoplay poster="img/vtuber2.png" height=360px width=750px src="img/vtuber2.mp4"> 
-    </video>
-
+    ![](img/vtuber2.png)
+    
 * **Landmark-Free Facial Motion Transfer to VTubers**: <a href="pubs/vtuber_summary.pdf" target="blank"> Report</a>
 
 	![](img/vtuber.png)
