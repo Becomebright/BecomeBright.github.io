@@ -1,7 +1,7 @@
 Title:   Shangzhe Di | Beihang University
 Author:  Shangzhe Di
-Date:    Jan. 16 2020
-Description: Senior student at College of Software, Beihang University
+Date:    Aug. 07, 2020
+Description: B.E. in Software Engineering, Beihang University
 Language: en
 CSS: css/tufte.min.css
 xhtml header: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38178018-3"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-38178018-3');</script>
@@ -9,8 +9,9 @@ xhtml header: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-
 Shangzhe Di
 ===========
 
-Senior student at [College of Software, Beihang University][TRI].\
 Research intern at [Kwai Technology][KWAI].\
+B.E. in Software Engineering, [Beihang University][BUAA].\
+
 \
 Research interests: *human-centered computer vision, 3D vision.*
 
@@ -19,7 +20,7 @@ Research interests: *human-centered computer vision, 3D vision.*
 ![cv] [`cv.pdf`](./cv.pdf)\
 ![location] `Beijing, China`
 
-[TRI]: https://ev.buaa.edu.cn/
+[BUAA]: https://ev.buaa.edu.cn/
 [KWAI]: https://www.kwai.com/
 [email]: ./img/email.svg "email" width=25px height=25px style="vertical-align: middle;"
 [github]: ./img/github.svg "github" width=25px height=25px style="vertical-align: middle;"
@@ -30,7 +31,12 @@ Projects
 ----------
 * **Flow-based Virtual Try-On System**
 
-![](img/vton.png)
+![](img/virtual_try-on.png)
+
+* **Research on Facial Motion Transfer for 2D Virtual Characters** (Bachelor Thesis)
+
+<video id="video" controls muted loop autoplay poster="img/vtuber2.png" height=360px width=750px src="img/vtuber2.mp4"> 
+</video>
 
 * **Landmark-Free Facial Motion Transfer to VTubers**: <a href="pubs/vtuber_summary.pdf" target="blank"> Report</a>
 
