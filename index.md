@@ -17,7 +17,7 @@ Research interests: *human-centered computer vision, 3D vision.*
 
 ![email] <shangzhe.di@gmail.com>\
 ![github] [`github.com/Becomebright`](https://github.com/Becomebright)\
-![cv] [`cv.pdf`](./cv.pdf)\
+![cv] [`cv.pdf`](./cv_ShangzheDi.pdf)\
 ![location] `Beijing, China`
 
 [BUAA]: https://ev.buaa.edu.cn/
