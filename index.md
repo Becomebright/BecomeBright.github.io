@@ -9,16 +9,13 @@ xhtml header: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-
 Shangzhe Di
 ===========
 
-Research intern at [Kwai Technology][KWAI].\
-B.E. in Software Engineering, [Beihang University][BUAA].\
+Research intern at [Kwai Technology][KWAI] (Oct. 2019 -- Present). \
+B.E. in Software Engineering, [Beihang University][BUAA] (Sep 2016 -- Jun. 2020). \
 
 \
-Research interests: *human-centered computer vision, 3D vision.*
+Research interests: human-centered computer vision, 3D vision.
 
-![email] <shangzhe.di@gmail.com>\
-![github] [`github.com/Becomebright`](https://github.com/Becomebright)\
-![cv] [`cv.pdf`](./cv_ShangzheDi.pdf)\
-![location] `Beijing, China`
+![email] <shangzhe.di@gmail.com> / ![github] [`github.com/Becomebright`](https://github.com/Becomebright) / ![cv] [`cv.pdf`](./cv_ShangzheDi.pdf) / ![location] `Beijing, China`
 
 [BUAA]: https://ev.buaa.edu.cn/
 [KWAI]: https://www.kwai.com/
@@ -27,7 +24,7 @@ Research interests: *human-centered computer vision, 3D vision.*
 [cv]: ./img/cv.svg "cv" width=25px height=25px style="vertical-align: middle;"
 [location]: ./img/location.svg "location" width=25px height=25px style="vertical-align: middle;"
 
-Projects
+Research Projects
 ----------
 * **Flow-based Virtual Try-On System**
 
@@ -46,6 +43,10 @@ Projects
 <div class="epigraph">
 <blockquote>
 <p>"I CAN DO ALL THINGS."</p>
-<footer>Stephen Curry, <cite>six-time NBA All-Star, three-time NBA Championship.</cite></footer>
+<footer>Stephen Curry, <cite>two-time NBA MVP, three-time NBA Championship.</cite></footer>
 </blockquote>
 </div>
+
+
+
+This template is borrowed from [Here](https://soonhokong.github.io/).
