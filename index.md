@@ -9,8 +9,8 @@ xhtml header: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-
 Shangzhe Di
 ===========
 
-Research intern at [Kwai Technology][KWAI] (Oct. 2019 -- Present). \
-B.E. in Software Engineering, [Beihang University][BUAA] (Sep 2016 -- Jun. 2020). \
+Research intern at [Kwai Technology][KWAI] (Oct 2019 -- Present). \
+B.E. in Software Engineering, [Beihang University][BUAA] (Sep 2016 -- Jun 2020). \
 
 \
 Research interests: human-centered computer vision, 3D vision.
@@ -26,7 +26,7 @@ Research interests: human-centered computer vision, 3D vision.
 
 Research Projects
 ----------
-* **Flow-based Virtual Try-On System**
+* **Powering Virtual Try-on with Pixel Sampling and Shading Refinement**
 
     ![](img/virtual_try-on.png)
 
@@ -35,8 +35,6 @@ Research Projects
     ![](img/vtuber2.png)
     
 * **Landmark-Free Facial Motion Transfer to VTubers**: <a href="pubs/vtuber_summary.pdf" target="blank"> Report</a>
-
-	![](img/vtuber.png)
 
 ---
 
