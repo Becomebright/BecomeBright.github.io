@@ -9,11 +9,12 @@ xhtml header: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-
 Shangzhe Di
 ===========
 
-Research intern at [Kwai Technology][KWAI] (Oct 2019 -- Present). \
+M.S in Computer Science, [Beihang University][BUAA] (Sep 2020 -- ). \
+Research intern at [Kwai Technology][KWAI] (Oct 2019 -- ). \
 B.E. in Software Engineering, [Beihang University][BUAA] (Sep 2016 -- Jun 2020). \
 
 \
-Research interests: human-centered computer vision, 3D vision.
+Research interests: human-centered computer vision, neural rendering.
 
 ![email] <shangzhe.di@gmail.com> / ![github] [`github.com/Becomebright`](https://github.com/Becomebright) / ![cv] [`cv.pdf`](./cv_ShangzheDi.pdf) / ![location] `Beijing, China`
 
