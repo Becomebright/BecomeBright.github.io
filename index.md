@@ -1,7 +1,7 @@
 Title:   Shangzhe Di | Beihang University
 Author:  Shangzhe Di
 Date:    Aug. 07, 2020
-Description: B.E. in Software Engineering, Beihang University
+Description: M.S. in Computer Science, Beihang University
 Language: en
 CSS: css/tufte.min.css
 xhtml header: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38178018-3"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-38178018-3');</script>
@@ -9,7 +9,7 @@ xhtml header: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-
 Shangzhe Di
 ===========
 
-M.S in Computer Science, [Beihang University][BUAA] (Sep 2020 -- ). \
+M.S. in Computer Science, [Beihang University][BUAA] (Sep 2020 -- ). \
 Research intern at [Kwai Technology][KWAI] (Oct 2019 -- ). \
 B.E. in Software Engineering, [Beihang University][BUAA] (Sep 2016 -- Jun 2020). \
 
@@ -27,9 +27,11 @@ Research interests: human-centered computer vision, neural rendering.
 
 Research Projects
 ----------
-* **Powering Virtual Try-on with Pixel Sampling and Shading Refinement**
+* **Music Generation (Ongoing)**
 
-    ![](img/virtual_try-on.png)
+* **Powering Virtual Try-on with Structural Information and Cascade Warping**
+
+    ![](img/virtual_try-on.jpg)
 
 * **Research on Facial Motion Transfer for 2D Virtual Characters**: <a href="https://www.bilibili.com/video/BV1q54y1m7jG/" target="blank"> Video</a>
 
