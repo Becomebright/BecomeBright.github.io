@@ -29,10 +29,6 @@ Research Projects
 ----------
 * **Music Generation (Ongoing)**
 
-* **Powering Virtual Try-on with Structural Information and Cascade Warping**
-
-    ![](img/virtual_try-on.jpg)
-
 * **Research on Facial Motion Transfer for 2D Virtual Characters**: <a href="https://www.bilibili.com/video/BV1q54y1m7jG/" target="blank"> Video</a>
 
     ![](img/vtuber2.png)
