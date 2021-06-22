@@ -9,12 +9,12 @@ xhtml header: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-
 Shangzhe Di
 ===========
 
-M.S. in Computer Science, [Beihang University][BUAA] (Sep 2020 -- ). \
-Research intern at [Kwai Technology][KWAI] (Oct 2019 -- ). \
+M.S. in Computer Science, [Beihang University][BUAA] (Sep 2020 -- Dec 2022). \
+Research intern, [Kwai Technology][KWAI] (Oct 2019 -- Jun 2021). \
 B.E. in Software Engineering, [Beihang University][BUAA] (Sep 2016 -- Jun 2020). \
 
 \
-Research interests: human-centered computer vision, neural rendering.
+Research interests: controllability in generative networks.
 
 ![email] <shangzhe.di@gmail.com> / ![github] [`github.com/Becomebright`](https://github.com/Becomebright) / ![cv] [`cv.pdf`](./cv_ShangzheDi.pdf) / ![location] `Beijing, China`
 
@@ -27,7 +27,7 @@ Research interests: human-centered computer vision, neural rendering.
 
 Research Projects
 ----------
-* **Music Generation (Ongoing)**
+* **Music Generation**
 
 * **Research on Facial Motion Transfer for 2D Virtual Characters**: <a href="https://www.bilibili.com/video/BV1q54y1m7jG/" target="blank"> Video</a>
 
