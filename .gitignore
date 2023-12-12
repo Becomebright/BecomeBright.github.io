@@ -13,3 +13,4 @@ cv.xdv
 auto/
 build/
 notes/
+*.key
