@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!--link rel="stylesheet" href="assets/css/normalize.css' %}">
+<link rel="stylesheet" href="assets/css/skeleton.css' %}">
+<link rel="stylesheet" href="assets/css/general.css' %}">
+<link rel="stylesheet" href="assets/css/custom.css' %}"-->
+<link rel="stylesheet" href="css/styles.css">
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic,300,300italic'
+      rel='stylesheet' type='text/css'>
+<head>
+    <title>Grounded Question-Answering in Long Egocentric Videos</title>
+</head>
+
+<body>
+<br>
+<br>
+<br>
+<center>
+    <span style="font-size:40px;color:Navy"><b>Grounded Question-Answering in Long Egocentric Videos</b></span>
+    <br>
+    <br>
+    <br>
+    <table align=center width=500px>
+        <tr align="center">
+            <td align=center width=150px>
+                <div style="text-align: center;">
+                    <span style="font-size:25px;color:Navy"><a href="https://dszdsz.cn/">Shangzhe Di</a></span>
+                </div>
+            </td>
+            <td align=center width=150px>
+                <div style="text-align: center;">
+                    <span style="font-size:25px;color:Navy"><a href="https://weidixie.github.io/index.html">Weidi Xie</a></span>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table align=center width=1000px>
+        <tr>
+            <td align=center width=500px>
+                <center>
+                    <span style="font-size:20px;color:Navy">CMIC, Shanghai Jiao Tong University</span>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <table align=center width=1000px>
+        <tr>
+            <!-- <td align=center width=100px>
+                <center>
+                    <span style="font-size:18px"></span>
+                </center>
+            </td> -->
+            <td align=center width=500px>
+                <center>
+                    <span style="font-size:25px;color:Navy"><a href="https://arxiv.org/abs/2312.06505"> Paper</a> </span>
+                </center>
+            </td>
+            <!-- <td align=center width=100px>
+                <br>
+                <br>
+                <center>
+                    <span style="font-size:14px"> </span>
+                </center>
+            </td> -->
+        </tr>
+    </table>
+    <br/>
+</center>
+
+<!-- Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<center>
+
+    <div class="container">
+        <div class="row">
+            <center>
+                <div class="twelve columns">
+                    <div class="container">
+                        <div class="row" align="justify">
+                            <h2 class="section-title"><span>Abstract</span></h2>
+                            <center>
+                                <img width="70%" class="center" src="img/teaser.png">
+                            </center>
+                            <p>
+                                Existing approaches to video understanding, mainly designed for short videos from a third-person perspective, are limited in their applicability in certain fields, such as robotics. In this paper, we delve into open-ended question-answering (QA) in long, egocentric videos, which allows individuals or robots to inquire about their own past visual experiences. This task presents unique challenges, including the complexity of temporally grounding queries within ex tensive video content, the high resource demands for precise data annotation, and the inherent difficulty of evaluating open-ended answers due to their ambiguous nature. Our proposed approach tackles these challenges by (i) integrating query grounding and answering within a unified model to reduce error propagation; (ii) employing large language models for efficient and scalable data synthesis; and (iii) introducing a close-ended QA task for evaluation, to manage answer ambiguity. Extensive experiments demonstrate the effectiveness of our method, which also achieves state- of-the-art performance on the QAEgo4D and Ego4D-NLQ benchmarks. We plan to publicly release the codes, model, and constructed datasets for future research.
+                            </p>
+
+                        <div align="justify" class="row section topspace">
+                            <h2 class="section-title"><span>Method</span></h2>
+                            <p>
+                                This paper investigates the problem of grounded question answering in long egocentric videos, i.e., the simultaneous localization and answering of questions.
+
+                                Our model, GroundVQA, addresses three tasks: OpenQA, CloseQA, and VLG. The model processes a video V and a question Q, to reason about the relevant temporal window T and the answer A. Initially, a frozen video backbone encodes V and maps it into the language embedding space. Simultaneously, Q undergoes tokenization and is transformed through an embedding layer. These video and question embeddings are then fused using a visual-language encoder. Finally, a temporal localizer uses the resulting video features to predict T , whereas a language decoder utilizes both video and question features, as provided by the VL encoder, to generate A.
+                            </p>
+                            <center>
+                                <img width="100%" class="center" src="img/framework.png">
+                            </center>
+
+                            <br><br>
+                            <p>
+                                We use Llama2 to generate QA pairs from consecutive narration sentences. (A) First, we generate question-answer pairs using consecutive narration sentences from Ego4D. (B) Next, we generate three plausible yet incorrect answers for each question-answer pair to construct data for the CloseQA task. We provide in-context examples to enhance the generation quality. Consequently, we have created <b class="small-caps">EgoTimeQA</b>, a grounded QA dataset containing 5,389 egocentric videos and 303K samples.
+                            </p>
+                            <center>
+                                <img width="100%" class="center"" src="img/prompt.png">
+                            </center>
+                        </div>
+                    </div>
+
+                    <div align="justify" class="row section topspace">
+                        <h2 class="section-title"><span>Results</span></h2>
+                        <p>
+                            Comparisons with state-of-the-art models on the <span class="small-caps">QaEgo4D</span> and NLQv2 test sets:
+                        </p>
+                        <center>
+                            <img width="100%" class="center"" src="img/sota.png">
+                        </center>
+                        
+                        <br><br>
+
+                        <p>
+                            Visualizations:
+                        </p>
+                        <center>
+                            <img width="100%" class="center"" src="img/visualization.png">
+                        </center>
+                    </div>
+
+                        <!-- <div align="center" class="row section topspace">
+                            <h2 class="section-title"><span>Publication</span></h2>
+                            <div class="ref">
+                                <div class="authors">
+                                    Shangzhe Di and Weidi Xie
+                                </div>
+                                <div class="title">
+                                    <a href="">
+                                        <b>Grounded Question-Answering in Long Egocentric Videos</b>
+                                    </a> &nbsp;
+                                </div>
+                                <div class="conf">
+                                    arXiv
+                                </div>
+                                <div class="links">
+                                    <a href="https://arxiv.org/abs/2312.06505"> Paper</a> |
+                                    <a href="https://github.com/wzk1015/video-bgm-generation"> Code</a> |
+                                    <a href="cmt.bib"> Bibtex</a> |
+                                    <a href="https://colab.research.google.com/github/wzk1015/video-bgm-generation/blob/develop/CMT.ipynb"> Colab Notebook</a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </center>
+            <br><br>
+        </div>
+    </div>
+</center>
+</body>
+</html>
+
