@@ -1,0 +1,8 @@
+@misc{unitime,
+        title={Universal Video Temporal Grounding with Generative Multi-modal Large Language Models},
+        author={Zeqian Li and Shangzhe Di and Zhonghua Zhai and Weilin Huang and Yanfeng Wang and Weidi Xie},
+        year={2025},
+        eprint={2506.18883},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
+    }
