@@ -1,0 +1,6 @@
+@article{di2026mtv,
+  title={Revisiting Multi-Task Visual Representation Learning},
+  author={Di, Shangzhe and Zhai, Zhonghua and Xie, Weidi},
+  journal={arXiv preprint arXiv:2601.13886},
+  year={2026}
+}
