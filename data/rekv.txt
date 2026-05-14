@@ -1,0 +1,6 @@
+@inproceedings{iclr25_rekv,
+  title={Streaming Video Question-Answering with In-context Video KV-Cache Retrieval},
+  author={Di, Shangzhe and Yu, Zhelun and Zhang, Guanghao and Li, Haoyuan and Cheng, Hao and Li, Bolin and He, Wanggui and Shu, Fangxun and Jiang, Hao and others},
+  booktitle={ICLR},
+  year={2025}
+}

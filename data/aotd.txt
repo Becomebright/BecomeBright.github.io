@@ -1,0 +1,6 @@
+@inproceedings{cvpr25_aotd,
+  title={Enhancing Video-LLM Reasoning via Agent-of-Thoughts Distillation},
+  author={Shi, Yudi and Di, Shangzhe and Chen, Qirui and Xie, Weidi},
+  booktitle={CVPR},
+  year={2025}
+}
