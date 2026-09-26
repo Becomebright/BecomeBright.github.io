@@ -1,0 +1,6 @@
+@inproceedings{bmvc26_probegen,
+  title={Are Image Generators Zero-Shot Perceivers? A Rigorous Evaluation},
+  author={Di, Shangzhe and Wang, Zhaokai and Xie, Weidi},
+  booktitle={BMVC},
+  year={2026}
+}
