@@ -1,0 +1,7 @@
+@article{xun2023linker,
+  title={Linker: Learning Long Short-term Associations for Robust Visual Tracking},
+  author={Xun, Zizheng and Di, Shangzhe and Gao, Yulu and Tang, Zongheng and Wang, Gang and Liu, Si and Li, Bo},
+  journal={IEEE Transactions on Multimedia},
+  year={2023},
+  doi={10.1109/TMM.2023.3347644}
+}

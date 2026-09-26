@@ -1,0 +1,6 @@
+@inproceedings{liu2026versavit,
+  title={VersaViT: Enhancing MLLM Vision Backbones via Task-Guided Optimization},
+  author={Liu, Yikun and Liu, Yuan and Di, Shangzhe and Wang, Haicheng and Zhao, Zhongyin and Tian, Le and Xiao, Zhou and Zhou, Jie and Yao, Jiangchao and Wang, Yanfeng and Xie, Weidi},
+  booktitle={ECCV},
+  year={2026}
+}

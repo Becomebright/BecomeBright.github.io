@@ -1,0 +1,6 @@
+@inproceedings{yan2026omnistream,
+  title={OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams},
+  author={Yan, Yibin and Xu, Jilan and Di, Shangzhe and Wu, Haoning and Xie, Weidi},
+  booktitle={ECCV},
+  year={2026}
+}
