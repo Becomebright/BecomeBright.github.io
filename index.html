@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shangzhe Di · 狄尚哲</title>
   <meta name="author" content="Shangzhe Di">
-  <meta name="description" content="Shangzhe Di — PhD candidate at SJTU and Student Researcher at Google DeepMind, working on video understanding, temporal grounding and multimodal learning. Graduating 2027 and on the job market.">
+  <meta name="description" content="Shangzhe Di — PhD candidate at SJTU and Student Researcher at Google DeepMind, working on video understanding, multi-task visual representation learning and world models. Graduating 2027 and on the job market.">
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Shangzhe Di · 狄尚哲">
-  <meta property="og:description" content="Video understanding · temporal grounding · streaming video · multimodal learning. PhD @ SJTU, Student Researcher @ Google DeepMind. On the job market (2027).">
+  <meta property="og:description" content="Video understanding · multi-task visual representation learning · world models. PhD @ SJTU, Student Researcher @ Google DeepMind. On the job market (2027).">
   <meta property="og:image" content="https://dszdsz.cn/images/web/portrait.jpg">
   <meta property="og:url" content="https://dszdsz.cn/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2318181b'/%3E%3Ctext x='32' y='42' font-size='27' font-weight='700' text-anchor='middle' fill='%23fff' font-family='Inter,Helvetica,Arial,sans-serif' letter-spacing='-1'%3ESD%3C/text%3E%3C/svg%3E">
@@ -49,7 +49,7 @@
     a:hover { text-decoration: underline; text-underline-offset: 3px; }
     img { display: block; max-width: 100%; }
     p { margin: 0 0 12px; }
-    .page { max-width: 1140px; margin: 0 auto; padding: 56px 24px 40px; }
+    .page { max-width: 1000px; margin: 0 auto; padding: 56px 24px 40px; }
 
     /* Header */
     .header { display: grid; grid-template-columns: minmax(0, 720px) 232px; justify-content: space-between; gap: 48px; align-items: start; }
@@ -72,7 +72,7 @@
     .item .sub { color: var(--muted); font-size: 15.5px; }
 
     /* Publications */
-    .pub { display: grid; grid-template-columns: 248px 1fr; gap: 48px; align-items: stretch; margin: 0 0 26px; }
+    .pub { display: grid; grid-template-columns: 216px 1fr; gap: 36px; align-items: stretch; margin: 0 0 26px; }
     .thumb { display: block; position: relative; height: 100%; min-height: 140px; }
     .thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
     .thumb.empty { --c: 184 65 44; --soft: #f6e8e3;
@@ -84,7 +84,7 @@
     .thumb.empty.teal   { --c: 13 148 136; --soft: #ddf1ee; }
     .thumb.empty.violet { --c: 124 58 237; --soft: #ece5fb; }
     .thumb.empty:hover { text-decoration: none; }
-    .title { display: block; color: var(--text); font-size: 18px; font-weight: 600; line-height: 1.4; margin-bottom: 4px; }
+    .title { display: block; color: var(--text); font-size: 18px; font-weight: 600; line-height: 1.4; margin-bottom: 4px; text-wrap: balance; }
     .authors { font-size: 15.5px; color: #333; }
     .authors b { color: var(--text); }
     .venue { font-size: 15.5px; }
@@ -108,6 +108,11 @@
       color: var(--muted); margin: 8px 0 16px; font-variant-numeric: tabular-nums; }
     .year > .y::after { content: ""; flex: 1; height: 1px; background: var(--line); }
     .year.empty, .pub[hidden] { display: none; }
+
+    /* News */
+    .news { list-style: none; margin: 0; padding: 0; }
+    .news li { display: flex; gap: 16px; margin: 0 0 8px; }
+    .news .date { color: var(--muted); font-size: 15px; white-space: nowrap; font-variant-numeric: tabular-nums; min-width: 64px; }
 
     /* Awards */
     .awards { list-style: none; margin: 0; padding: 0; }
@@ -150,13 +155,13 @@
         </p>
         <p>
           Hi, I am a fourth-year PhD candidate at <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>, advised by
-          <a href="https://weidixie.github.io">Prof. Weidi Xie</a>. My research focuses on <b>video understanding</b> and <b>multimodal learning</b>.
+          <a href="https://weidixie.github.io">Prof. Weidi Xie</a>. My research focuses on <b>video understanding</b>, <b>multi-task visual representation learning</b>, and <b>world models</b>.
         </p>
         <p>
-          I am currently a Student Researcher at Google DeepMind in London, working on agentic 4D generation.
+          I am currently a Student Researcher at Google DeepMind in London, working on agentic 4D world modeling.
           Previously, I interned at ByteDance Seed and Alibaba.
         </p>
-        <p><b>I'm graduating in 2027 and open to opportunities in both industry and academia.</b> Feel free to reach out if you think there's a good fit.</p>
+        <p><b>I'm graduating in 2027 and open to industry opportunities.</b> Feel free to reach out if you think there's a good fit.</p>
       </div>
       <a class="photo" href="images/DiShangzhe2.jpg">
         <picture>
@@ -166,11 +171,20 @@
       </a>
     </div>
 
+    <!-- News (hidden; remove this comment wrapper to show it again)
+    <h2>News</h2>
+    <ul class="news">
+      <li><span class="date">2026.09</span><span><a href="data/MTV.pdf">MTV</a> accepted to ACCV 2026</span></li>
+      <li><span class="date">2026.08</span><span><a href="https://arxiv.org/abs/2609.07884">ProbeGen</a> accepted to BMVC 2026</span></li>
+      <li><span class="date">2026.06</span><span><a href="https://go2heart.github.io/omnistream/">OmniStream</a> accepted to ECCV 2026</span></li>
+    </ul>
+    -->
+
     <div class="cols">
       <div>
         <h2>Experience</h2>
-        <div class="item"><div class="top"><span class="org">Google DeepMind</span><span class="date">May 2026 – Nov 2026</span></div><div class="sub">Student Researcher · Agentic 4D Generation</div></div>
-        <div class="item"><div class="top"><span class="org">ByteDance Seed</span><span class="date">Nov 2024 – Dec 2025</span></div><div class="sub">TopSeed Intern · Visual Representation Learning</div></div>
+        <div class="item"><div class="top"><span class="org">Google DeepMind</span><span class="date">May 2026 – Nov 2026</span></div><div class="sub">Student Researcher · Agentic 4D World Modeling</div></div>
+        <div class="item"><div class="top"><span class="org">ByteDance Seed</span><span class="date">Nov 2024 – Dec 2025</span></div><div class="sub">TopSeed Intern · Multi-Task Visual Pretraining</div></div>
         <div class="item"><div class="top"><span class="org">Alibaba</span><span class="date">Apr 2024 – Sep 2024</span></div><div class="sub">Research Intern · Streaming Video Understanding</div></div>
       </div>
       <div>
@@ -190,7 +204,29 @@
     </div>
     <div class="year">
       <div class="y">2026</div>
-        <div class="pub">
+        <div class="pub" data-selected>
+          <a class="thumb" href="data/MTV.pdf"><img src="images/web/mtv.svg" alt="" loading="lazy"></a>
+          <div>
+            <a class="title" href="data/MTV.pdf">Revisiting Multi-Task Visual Representation Learning</a>
+            <div class="authors"><b>Shangzhe Di</b>, Zhonghua Zhai, Weidi Xie</div>
+            <div class="venue"><em>ACCV</em>, 2026</div>
+            <div class="links"><a href="data/MTV.pdf">paper</a> / <a href="https://github.com/Becomebright/MTV">code</a> / <a href="data/mtv.txt" data-bib>bibtex</a></div>
+            <p class="tldr">Multi-task pre-training can yield scalable general-purpose visual representations.</p>
+          </div>
+        </div>
+
+        <div class="pub" data-selected>
+          <a class="thumb" href="https://arxiv.org/abs/2609.07884"><img src="images/web/probegen.svg" alt="" loading="lazy"></a>
+          <div>
+            <a class="title" href="https://arxiv.org/abs/2609.07884">Are Image Generators Zero-Shot Perceivers? A Rigorous Evaluation</a>
+            <div class="authors"><b>Shangzhe Di</b>, Zhaokai Wang, Weidi Xie</div>
+            <div class="venue"><em>BMVC</em>, 2026</div>
+            <div class="links"><a href="https://arxiv.org/abs/2609.07884">paper</a> / <span class="na">code (soon)</span> / <a href="data/probegen.txt" data-bib>bibtex</a></div>
+            <p class="tldr">Image generators exhibit strong zero-shot perception capabilities through text prompting.</p>
+          </div>
+        </div>
+
+        <div class="pub" data-selected>
           <a class="thumb" href="https://go2heart.github.io/omnistream/"><img src="images/web/omnistream.svg" alt="" loading="lazy"></a>
           <div>
             <a class="title" href="https://go2heart.github.io/omnistream/">OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams</a>
@@ -214,28 +250,6 @@
         </div>
         -->
 
-        <div class="pub" data-selected>
-          <a class="thumb" href="https://arxiv.org/abs/2609.07884"><img src="images/web/probegen.svg" alt="" loading="lazy"></a>
-          <div>
-            <a class="title" href="https://arxiv.org/abs/2609.07884">Are Image Generators Zero-Shot Perceivers? A Rigorous Evaluation</a>
-            <div class="authors"><b>Shangzhe Di</b>, Zhaokai Wang, Weidi Xie</div>
-            <div class="venue"><em>BMVC</em>, 2026</div>
-            <div class="links"><a href="https://arxiv.org/abs/2609.07884">paper</a> / <span class="na">code (soon)</span> / <a href="data/probegen.txt" data-bib>bibtex</a></div>
-            <p class="tldr">Image generators exhibit strong zero-shot perception capabilities through text prompting.</p>
-          </div>
-        </div>
-
-        <div class="pub" data-selected>
-          <a class="thumb" href="https://arxiv.org/abs/2601.13886"><img src="images/web/mtv.svg" alt="" loading="lazy"></a>
-          <div>
-            <a class="title" href="https://arxiv.org/abs/2601.13886">Revisiting Multi-Task Visual Representation Learning</a>
-            <div class="authors"><b>Shangzhe Di</b>, Zhonghua Zhai, Weidi Xie</div>
-            <div class="venue"><em>ACCV</em>, 2026</div>
-            <div class="links"><a href="https://arxiv.org/abs/2601.13886">paper</a> / <a href="https://github.com/Becomebright/MTV">code</a> / <a href="data/mtv.txt" data-bib>bibtex</a></div>
-            <p class="tldr">Multitask pre-training can yield scalable general-purpose visual representations.</p>
-          </div>
-        </div>
-
     </div>
 
     <div class="year">
@@ -251,14 +265,14 @@
           </div>
         </div>
 
-        <div class="pub" data-selected>
+        <div class="pub">
           <a class="thumb" href="https://go2heart.github.io/streamformer/"><img src="images/web/streamformer.webp" alt="" loading="lazy"></a>
           <div>
             <a class="title" href="https://go2heart.github.io/streamformer/">Learning Streaming Video Representation via Multitask Training</a>
             <div class="authors">Yibin Yan*, Jilan Xu*, <b>Shangzhe Di</b>, Yikun Liu, Yudi Shi, Qirui Chen, Zeqian Li, Yifei Huang, Weidi Xie</div>
             <div class="venue"><em>ICCV</em>, 2025 <b class="award">Oral</b></div>
             <div class="links"><a href="https://arxiv.org/pdf/2504.20041">paper</a> / <a href="https://go2heart.github.io/streamformer/">project</a> / <a href="https://github.com/Go2Heart/StreamFormer">code</a> / <a href="data/streamformer.txt" data-bib>bibtex</a></div>
-            <p class="tldr">Streaming video representations at global, temporal and spatial granularity, learned via multitask training.</p>
+            <p class="tldr">Streaming video representations at global, temporal and spatial granularity, learned via multi-task training.</p>
           </div>
         </div>
 
@@ -351,7 +365,7 @@
     <p>Reviewer of CVPR, ICCV, ECCV, ICLR, NeurIPS, and ICML.</p>
 
     <footer>
-      <span>Last updated: September 2026</span>
+      <span>Last updated: October 2026</span>
       <a href="https://www.easycounter.com/"><img src="https://www.easycounter.com/counter.php?dsz6223042" alt="Web counter"></a>
     </footer>
   </div>
@@ -359,7 +373,7 @@
   <script type="application/json" id="bibtex-data">
 {
   "probegen": "@inproceedings{bmvc26_probegen,\n  title={Are Image Generators Zero-Shot Perceivers? A Rigorous Evaluation},\n  author={Di, Shangzhe and Wang, Zhaokai and Xie, Weidi},\n  booktitle={BMVC},\n  year={2026}\n}",
-  "mtv": "@article{di2026mtv,\n  title={Revisiting Multi-Task Visual Representation Learning},\n  author={Di, Shangzhe and Zhai, Zhonghua and Xie, Weidi},\n  journal={arXiv preprint arXiv:2601.13886},\n  year={2026}\n}",
+  "mtv": "@inproceedings{di2026mtv,\n  title={Revisiting Multi-Task Visual Representation Learning},\n  author={Di, Shangzhe and Zhai, Zhonghua and Xie, Weidi},\n  booktitle={ACCV},\n  year={2026}\n}",
   "unitime": "@inproceedings{unitime,\n    title={Universal Video Temporal Grounding with Generative Multi-modal Large Language Models},\n    author={Zeqian Li and Shangzhe Di and Zhonghua Zhai and Weilin Huang and Yanfeng Wang and Weidi Xie},\n    booktitle={NeurIPS},\n    year={2025}\n}",
   "streamformer": "@inproceedings{yan2025learning,\n    title={Learning Streaming Video Representation via Multitask Training},\n    author={Yibin Yan and Jilan Xu and Shangzhe Di and Yikun Liu and Yudi Shi and Qirui Chen and Zeqian Li and Yifei Huang and Weidi Xie},\n    booktitle={ICCV},\n    year={2025}\n}",
   "aotd": "@inproceedings{cvpr25_aotd,\n  title={Enhancing Video-LLM Reasoning via Agent-of-Thoughts Distillation},\n  author={Shi, Yudi and Di, Shangzhe and Chen, Qirui and Xie, Weidi},\n  booktitle={CVPR},\n  year={2025}\n}",
